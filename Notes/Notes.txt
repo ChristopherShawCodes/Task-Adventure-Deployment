@@ -1,0 +1,132 @@
+npm install react-datetime-picker 
+
+import React, { useState } from 'react';
+import DateTimePicker from 'react-datetime-picker';
+
+function MyApp() {
+  const [value, onChange] = useState(new Date());
+
+  return (
+    <div>
+      <DateTimePicker onChange={onChange} value={value} />
+    </div>
+  );
+}
+
+----------------------------------------------
+
+
+* {
+  border: 1px solid transparent;
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 200px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+
+
+@media only screen and (min-width: 500px) {
+  html {
+    zoom: 0.7;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    zoom: 0.8;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  html {
+    zoom: 0.9;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    zoom: 1;
+  }
+}
+
+html {
+  height: max-content;
+  margin: 0 auto;
+}
+-------------------------------------------------
+
+
+/* NAVIGATION  */
+
+.active{
+  font-size: 26px;
+  color: white;
+}
+
+#link{
+  margin: 10px;
+}
+
+nav{
+  font-size: larger;
+  font-family: fantasy;
+  padding-top: 10px;
+  background-color: #baa7a3;
+  color: rgb(61, 60, 60);
+}
+
+nav p {
+  margin-top: 15px;
+  color: white;
+  text-decoration: underline 1px solid black;
+  font-size: 20px;
+  opacity: 70%;
+}
+
+nav h3{
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.inline{
+  margin: 10px;
+}
+
+#open{
+  font-size: 14px;
+  height: 2rem;
+  animation: pulse-black 3s ;
+  animation-iteration-count: 3;
+}
+
+@keyframes pulse-black {
+  0% {
+    transform: scale(0.75);
+  }
+  
+  70% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+----------------------------------------------------

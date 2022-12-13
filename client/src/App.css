@@ -1,0 +1,71 @@
+
+* {
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  height: 100%;
+  margin: 0 auto;
+  font-family: fantasy;
+}
+
+body{
+  height: 100%;
+}
+
+
+/* ---------------------------------------------------------- */
+
+      /* Home */
+
+      .bg-home{
+        background-image: url('./assets/home-bg.gif');
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        opacity: 0.9;
+      }
+
+      .menu{
+        position: relative;
+      }
+      
+      #menu img{
+        width: 60%;
+        max-width: 60rem;
+        min-width: 40rem;
+        margin-top: 2rem;
+        opacity: 1;
+        cursor: pointer;
+      }
+
+
+
+
+
+
+/* --------------------------------------------------------------- */
+
+/* Registration Page  */
+
+
+#registrationForm{
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 50%;
+}
+
+
+#loginContainer{
+  margin: 0 auto;
+  margin-top: 15%;
+  width: 50%;
+  padding: 5%;
+}

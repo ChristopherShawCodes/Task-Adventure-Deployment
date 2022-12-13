@@ -1,0 +1,140 @@
+.credits-bg{
+    background-image: url('./credit-bg.gif');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+
+.credits-container{
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0.9;
+    padding: 1rem;
+    width: 31rem;
+    min-width: 31rem;
+    font-size: 24px;
+    border-radius: 1rem;
+    border: 4px solid #fab42c;
+    height: 30rem;
+    box-shadow: 2px 2px 7px 2px black;
+    margin-top: 2rem;
+    z-index: 1;
+}
+
+.credits-container:hover{
+    scale: 0.99;
+}
+
+
+.credits-title{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    transform: translateX(6rem);
+    margin-top: 1.2rem;
+}
+
+.credits-title-container{
+    margin: 0 auto;
+    transform: translateX(2rem);
+    background: url('./top_tape.png');
+    background-repeat: no-repeat;
+    width: 25%;
+    min-width: 20rem;
+    scale: 1.3;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+
+.credits-container h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.credits-container h4{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: red;
+    font-size: larger;
+}
+
+.credits-container h5{
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.credits-container p{
+    margin-top: 0.4rem;
+}
+
+.credits-container h6{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: smaller;
+    color: red;
+}
+
+.itch{
+    text-decoration: none;
+}
+
+.itch:hover{
+    color: green;
+}
+
+.connect{
+    position: absolute;
+    left: 40%;
+    margin-top: 2rem;
+    width: 20rem;
+}
+
+.twitter{
+    scale: 2;
+    position: absolute;
+    left: 47%;
+    animation: pulse 3s infinite;
+}
+
+.twitter:hover{
+    scale: 2.5;
+    animation: none;
+}
+
+
+@keyframes pulse {
+    0%{
+opacity: 1;
+    }
+    50%{
+opacity: 0.65;
+    }
+    100%{
+opacity: 0.95;
+    }
+}
+
+
+.back{
+    position: absolute;
+    margin-left: 31rem;
+    text-decoration: none;
+    width: 100%;
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.back:hover{
+    color: red;
+}

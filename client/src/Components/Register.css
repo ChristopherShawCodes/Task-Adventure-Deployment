@@ -1,0 +1,81 @@
+.bg-register{
+    background-image: url('../assets/register.gif');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+}
+
+#registration-form{
+background: url('../assets/registration.png');
+padding: 1rem;
+min-width: 90%;
+max-width: 8rem;
+background-repeat: no-repeat;
+background-position: center;
+object-fit: cover;
+margin: 1rem;
+margin: 0 auto;
+border-radius: 1rem;
+height: 40rem;
+}
+
+input{
+max-width: 40%;
+min-width: 20rem;
+margin: 0 auto;
+text-align: center;
+margin-top: 1rem;
+}
+
+form p{
+max-width: 40%;
+min-width: 20rem;
+margin: 0 auto;
+text-align: center;
+margin-top: 1rem;
+}
+
+
+
+#go{
+margin: 0 auto;
+text-align: center;
+margin-top: 1rem;
+max-width: 30%;
+min-width: 20rem;
+}
+
+#go:hover{
+background: #f3b437;
+scale: 1.2;
+}
+
+
+#sign-in{
+margin: 0 auto;
+text-align: center;
+margin-top: 1rem;
+max-width: 30%;
+min-width: 20rem;
+color: #fff;
+letter-spacing: 2px;
+}
+
+#sign-in a{
+    text-decoration: none;
+    color: #f3b437
+}
+
+#create-account-name{
+    margin-top: 10rem;
+}
+
+#create-link{
+text-decoration: none;
+color: #fab42c;
+}
+
+

@@ -1,0 +1,152 @@
+.edit-bg{
+  background-image: url('../assets/edit-form-bg.gif');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+
+.card-container{
+  background: url('../assets/edit-task-container.png');
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  top: 2rem;
+  background-position: center;
+  position: absolute;
+}
+
+
+.task-card{
+  width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 18rem;
+}
+
+.what-type{
+  color: #fff;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  padding: 1rem;
+  cursor: default;
+}
+
+
+.task-selector{
+      display: flex;
+      position: absolute;
+      top: 3rem;
+      margin: 0 auto;
+      background-color: #3e3f28;
+      width: 48rem;
+      transform: translateX(-20%);
+      padding: 0.3rem;
+      border: 5px solid #FAB42C;
+      box-shadow: 2px 2px 6px 1px black;
+  } 
+  
+  .input-block{
+      padding: 5px;
+      margin: 0.3rem;
+      width: 20rem;
+  }
+
+  
+  #prePopulated{
+      display: none;
+  }
+
+  #quick-label{
+    color: #fff;
+  }
+  
+  .quick-task,.custom-task{
+      background-color: #FFF;
+      padding: 1rem;
+      color: rgb(61, 60, 60);
+      text-align: center;
+      font-size: 2rem;
+      cursor: pointer;
+      transform: translateX(0.5rem);
+      border: 2px solid #75878B;
+      margin: 5px;
+  }
+
+  .quick-task:hover,.custom-task:hover{
+    scale: 0.95;
+  }
+
+
+  @keyframes smooth {
+      0%{
+          background-color: #FFF;
+          scale: 1;
+      }
+      15%{
+          background-color: #f3d291;
+      }
+      30%{
+          background-color: #f5be4f;
+      }
+      60%{
+          background-color: #FAB42C;
+          scale: 0.95;
+      }
+      75%{
+          background-color: #f5be4f;
+      }
+      90%{
+          background-color: #f3d291;
+      }
+      100%{
+          background-color: #FFF;
+          scale: 1;
+      }
+  }
+
+  textarea,select{
+      text-align: center;
+  }
+
+  .text-area{
+    width: 67%;
+    height: 2rem;
+    opacity: 0.9;
+    padding: 0.5rem;
+  }
+
+  #updated-time{
+    cursor: not-allowed;
+  }
+
+
+.add-button{
+      background-color: #FAB42C;
+      width: 50%;
+      height: 2rem;
+      opacity: 0.9;
+  }
+
+.add-button:hover{
+  scale: 1.2;
+  opacity: 1;
+}
+
+.update-button{
+  background-color: #FAB42C;
+  position: absolute;
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  opacity: 0.95;
+}
+
+.update-button:hover{
+  scale: 0.9;
+  opacity: 1;
+  animation: smooth 2s infinite;
+}

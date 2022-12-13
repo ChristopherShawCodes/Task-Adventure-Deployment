@@ -1,0 +1,151 @@
+nav{
+    background-color: #788A65;
+    letter-spacing: 2px;
+    font-weight: 600;
+    height: 5rem;
+}
+
+
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: .2rem;
+    cursor: default;
+}
+
+.navbar {
+    border-bottom: solid 1px #FAB42C;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+
+#not-adventuring,#adventuring
+{
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+
+#gui{
+    position: absolute;
+    z-index: -1;
+    width: 23rem;
+    height: 3rem;
+    box-shadow: 2px 2px 1px 1px black;
+    cursor: n-resize;
+}
+
+#gui-text{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: larger;
+    cursor: n-resize;
+
+}
+
+
+#bottom-not-adventuring,#bottom-adventuring
+{
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+
+#bottom-gui{
+    position: absolute;
+    z-index: -1;
+    width: 18rem;
+    transform: translateY(-65%);
+    box-shadow: 2px 2px 1px 1px black;
+    cursor: e-resize;
+}
+
+@media screen and (max-width: 700px) {
+    #bottom-gui,#bottom-gui-text {
+        display: none ;
+    }
+}
+
+
+#bottom-gui-text{
+    color: #fff;
+    margin-left: 4rem;
+    position: absolute;
+    transform: translateY(-65%);
+    font-size: larger;
+    cursor: e-resize;
+    width: 15rem;
+}
+
+
+#login{
+    font-size: 2rem;
+}
+
+
+.bottom-tab-nav {
+    border-top: solid 1px #FAB42C;
+    font-size: 2rem;
+}
+
+.nav-link,
+.bottom-nav-link {
+    color: #fff;
+    opacity: 0.9;
+    background-color: #535635;
+    border: 3px solid #FAB42C;
+}
+
+.nav-link:hover{
+    opacity: 1;
+    color: #fff;
+    scale: 1.1;
+}
+
+.nav-link.active {
+    color: #FAB42C;
+    opacity: 1;
+    scale: 1.1;
+}
+
+
+
+.out{
+    color: #fff;
+    opacity: 0.8;
+    margin-left: 1.5rem;
+    margin-top: .6rem;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.out:hover{
+    opacity: 1;
+    color: #FAB42C;
+    animation: pulse 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0%{
+        opacity: 0.7;
+        scale: 1;
+        color: #FAB42C;
+    }
+    50%{
+        opacity: 0.9;
+        scale: 1.1;
+        color: #fff;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+        color: #FAB42C;
+    }
+}

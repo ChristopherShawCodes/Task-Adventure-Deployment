@@ -1,0 +1,126 @@
+.form-bg{
+    background-image: url('../assets/form-bg.gif');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+.card-container-form{
+    background: url('../assets/form-card.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    top: 2rem;
+    background-position: center;
+    position: absolute;
+}
+
+
+.task-card{
+    width: 30rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 18rem;
+}
+
+.what-type{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+
+
+.task-selector{
+        display: flex;
+        position: absolute;
+        top: 3rem;
+        margin: 0 auto;
+        background-color: #3e3f28;
+        width: 48rem;
+        transform: translateX(-20%);
+        padding: 0.3rem;
+        border: 5px solid #FAB42C;
+        box-shadow: 2px 2px 6px 1px black;
+    } 
+    
+    .input-block{
+        padding: 5px;
+        margin: 0.3rem;
+        width: 20rem;
+    }
+    
+    #prePopulated{
+        display: none;
+    }
+    
+    #quickTask,#customTask{
+        background-color: #FFF;
+        padding: 0.6rem;
+        color: rgb(61, 60, 60);
+        text-align: center;
+        font-size: 2rem;
+        cursor: pointer;
+        transform: translateX(0.5rem);
+        border: 2px solid #75878B;
+        margin: 0.5rem;
+    }
+
+    #quickTask:hover,#customTask:hover{
+        animation: smooth 3s infinite ease-in-out;
+    }
+
+
+    @keyframes smooth {
+        0%{
+            background-color: #FFF;
+        }
+        15%{
+            background-color: #f3d291;
+        }
+        30%{
+            background-color: #f5be4f;
+        }
+        60%{
+            background-color: #FAB42C;
+        }
+        75%{
+            background-color: #f5be4f;
+        }
+        90%{
+            background-color: #f3d291;
+        }
+        100%{
+            background-color: #FFF;
+        }
+    }
+
+
+
+
+    textarea,select{
+        text-align: center;
+    }
+
+
+    #quickTask:hover,#customTask:hover{
+        opacity: 0.9;
+        scale: 1.1;
+    }
+
+
+.add-button{
+        background-color: #FAB42C;
+        width: 50%;
+        height: 2rem;
+        opacity: 0.9;
+    }
+
+.add-button:hover{
+    scale: 1.2;
+    opacity: 1;
+}

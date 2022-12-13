@@ -1,0 +1,90 @@
+.video-bg{
+    background: url('./video-bg.gif');
+    height: 110vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+}
+
+.react-player{
+    transition: opacity 400ms ease 0ms;
+    margin-left: 25%;
+    position: absolute;
+    transform: translateY(-120%);
+    background-color: black;
+    border: 2px solid #FFAA00;
+    box-shadow: 4px 1px 4px 4px black;
+}
+
+.end-button{
+    visibility: hidden;
+    margin-left: 77%;
+    transform: translateY(-140%);
+    background: url('./forward_button.png');
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 100%;
+    animation: pulse 2s infinite;
+}
+
+.continue{
+    visibility: hidden;
+    margin-left: 77%;
+    transform: translateY(-140%);
+    background-repeat: no-repeat;
+    height: 4rem;
+    width: 100%;
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+@keyframes pulse {
+    0%{
+        opacity: 1;
+        width: 4.2rem;
+        border-radius: 50%;
+        border: 3px solid white;
+    }
+    50%{
+        opacity: 0.9;
+        width: 4.2rem;
+        border-radius: 50%;
+
+    }
+    100%{
+        opacity: 1.1;
+        width: 4.2rem;
+        border-radius: 50%;
+
+    }
+}
+
+.video{
+    position: relative;
+    padding-bottom: 3rem;
+    width: auto;
+    height: auto;
+}
+
+
+.turn-on{
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+.instructions{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 5rem;
+    position: absolute;
+    margin-left: 15rem;
+    opacity: 0.5;
+    border: 1px solid red;
+}
+
+
+

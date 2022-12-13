@@ -1,0 +1,11 @@
+
+.game-container{
+    display: grid;
+    height: 100vh;
+    background: #8ca177;
+}
+
+.canvas{
+    margin: 0 auto;
+    margin-top: 5%;
+}

@@ -1,0 +1,135 @@
+.oneTask-bg{
+    background: url('../assets/one-task-bg.gif');
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.one-card{
+    background: url('../GUI/PNG/02character/char_bg.png');
+    height: 24rem;
+    background-repeat: no-repeat;
+    width: 25%;
+    min-width: 20rem;
+    position: absolute;
+    scale: 1.4;
+    transform: translateX(85%);
+    margin-top: 8rem;
+    padding: 1rem;
+    border: 4px solid #fff;
+    background-color: #FAB42C;
+    box-shadow: 2px 2px 7px 2px black;
+}
+
+.label-a{
+    transform: translateX(15%);
+    margin: 0.5rem;
+}
+
+.label-b{
+    transform: translateX(20%);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.label-c{
+    transform: translateX(10%);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.one-card p{
+    color: red;
+    text-align: center;
+}
+
+.card-header{
+    transform: translateX(-22%);
+    margin-bottom: 1rem;
+}
+
+.card-icons{
+    scale: 0.5;
+    transform: translateY(-55%);
+}
+
+
+
+.completed-module{
+    transform:translateX(-100%);
+    z-index: 2;
+    scale: 1.2;
+    margin-top: 3rem;
+    margin-bottom: 25rem;
+    height: 37rem;
+    position: absolute;
+}
+
+
+.one-end-button{
+    visibility: hidden;
+    margin-left: 57%;
+    position: absolute;
+    transform: translateY(420%);
+    background: url('./Video/forward_button.png');
+    background-repeat: no-repeat;
+    height: 8rem;
+    width: 100%;
+    z-index: 100;
+}
+
+
+#cardBody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post{
+    position: absolute;
+    visibility: hidden;
+    top: 3%;
+    right: 0;
+    letter-spacing: 2px;
+    border: 4px solid #7A8D93;
+    padding: 1rem;
+    font-size: 1.4rem;
+    background-color: #FAB42C;
+    box-shadow: 2px 2px 7px 2px black;
+}
+
+.todo-icon{
+    cursor: pointer;
+}
+
+.trash-can{
+    cursor: pointer;
+    margin: 0.2rem;
+}
+
+.todo-icon:hover,.trash-can:hover,.edit-icon:hover{
+    scale: 1.05;
+}
+
+.credits{
+    visibility: hidden;
+    background: url('./i_yellow.png');
+    height: 4rem;
+    width: 4rem;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 6rem;
+    scale: 1.4;
+    right: 0.1rem;
+    transform: translateX(20%);
+    cursor: pointer;
+}
+
+.credits:hover,.close:hover{
+    scale: 1.5;
+}

@@ -1,0 +1,108 @@
+.tasks-bg{
+    background: url('../assets/all-bg.gif');
+    height: 140vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+
+.card{
+    width: 17.2rem;
+    margin: 0 auto;
+    background: url('../GUI/PNG/13Upgrades/beige_border.png');
+    background-repeat: no-repeat;
+    margin: 0.9rem;
+    height: 18.4rem;
+    margin-top: 2rem;
+}
+
+.card-header{
+    margin: 0 auto;
+    margin-top: 1rem;
+    cursor: default;
+}
+
+.card-body{
+    letter-spacing: .2rem;
+    cursor: default;
+}
+
+.card-footer{
+    position: relative;
+    height: 5rem;
+}
+
+
+
+.name{
+    cursor: default;
+}
+
+.speed{
+    margin-left: 70%;
+    position: absolute;
+}
+
+.audio-player{
+    position: fixed;
+    bottom: 6rem;
+    right: 1rem;
+    visibility: hidden;
+    opacity: 0.9;
+}
+
+.settings{
+    visibility: visible;
+    background: url('../GUI/PNG/17Icons/yellow/settings_big_yellow.png');
+    height: 4rem;
+    width: 4rem;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 6rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.credits{
+    visibility: hidden;
+    background: url('./i_yellow.png');
+    height: 4rem;
+    width: 4rem;
+    background-repeat: no-repeat;
+    position: fixed;
+    bottom: 6rem;
+    scale: 1.4;
+    right: 0.1rem;
+    transform: translateX(20%);
+    cursor: pointer;
+}
+
+.credits:hover,.close:hover{
+    scale: 1.5;
+}
+
+.close{
+    position: fixed;
+    bottom: 10rem;
+    right: 1.5rem;
+    visibility: hidden;
+    color: transparent;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: url('../GUI/PNG/17Icons/yellow/x_yellow.png');
+    cursor: pointer;
+}
+
+
+#credit-link{
+    height: 2rem;
+    background-color: transparent;
+    border: none;
+}
